@@ -1,1 +1,1 @@
-# Shmup
+# Sprites author: 	Cluly
