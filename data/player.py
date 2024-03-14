@@ -5,17 +5,17 @@ from data.bullet import Bullet
 class Player(pygame.sprite.Sprite):
     def __init__(self, x, y):
         super(Player, self).__init__()
-        self.anim1 = pygame.image.load("C:/dev/pygame/Shmup/assets/sprites/player/player1.png")
-        self.anim2 = pygame.image.load("C:/dev/pygame/Shmup/assets/sprites/player/player2.png")
-        self.anim3 = pygame.image.load("C:/dev/pygame/Shmup/assets/sprites/player/player3.png")
+        self.anim1 = pygame.image.load("assets/sprites/player/player1.png")
+        self.anim2 = pygame.image.load("assets/sprites/player/player2.png")
+        self.anim3 = pygame.image.load("assets/sprites/player/player3.png")
 
-        self.left1 = pygame.image.load("C:/dev/pygame/Shmup/assets/sprites/player/player_left1.png")
-        self.left2 = pygame.image.load("C:/dev/pygame/Shmup/assets/sprites/player/player_left2.png")
-        self.left3 = pygame.image.load("C:/dev/pygame/Shmup/assets/sprites/player/player_left3.png")
+        self.left1 = pygame.image.load("assets/sprites/player/player_left1.png")
+        self.left2 = pygame.image.load("assets/sprites/player/player_left2.png")
+        self.left3 = pygame.image.load("assets/sprites/player/player_left3.png")
 
-        self.right1 = pygame.image.load("C:/dev/pygame/Shmup/assets/sprites/player/player_right1.png")
-        self.right2 = pygame.image.load("C:/dev/pygame/Shmup/assets/sprites/player/player_right2.png")
-        self.right3 = pygame.image.load("C:/dev/pygame/Shmup/assets/sprites/player/player_right3.png")
+        self.right1 = pygame.image.load("assets/sprites/player/player_right1.png")
+        self.right2 = pygame.image.load("assets/sprites/player/player_right2.png")
+        self.right3 = pygame.image.load("assets/sprites/player/player_right3.png")
 
 
         self.anim = [self.anim1, self.anim2, self.anim3]

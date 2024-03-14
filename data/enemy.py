@@ -4,8 +4,8 @@ from data.__init__ import *
 class Enemy(pygame.sprite.Sprite):
     def __init__(self, pos):
         super(Enemy, self).__init__()
-        self.anim1 = pygame.image.load("C:/dev/pygame/Shmup/assets/sprites/enemies/green_enemy1.png")
-        self.anim2 = pygame.image.load("C:/dev/pygame/Shmup/assets/sprites/enemies/green_enemy2.png")
+        self.anim1 = pygame.image.load("assets/sprites/enemies/green_enemy1.png")
+        self.anim2 = pygame.image.load("assets/sprites/enemies/green_enemy2.png")
         self.surf = self.anim1
         self.rect = self.surf.get_rect()
 

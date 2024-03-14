@@ -9,8 +9,8 @@ SCREEN_HEIGHT = 128
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT), pygame.SCALED, pygame.FULLSCREEN)
 clock = pygame.time.Clock()
 k = pygame.key.get_pressed()
-bar = pygame.image.load("C:/dev/pygame/Shmup/assets/sprites/bar/bar.png")
-title = pygame.image.load("C:/dev/pygame/Shmup/assets/sprites/bar/title.png")
+bar = pygame.image.load("assets/sprites/bar/bar.png")
+title = pygame.image.load("assets/sprites/bar/title.png")
 
 # Groups
 all_sprites = pygame.sprite.Group()

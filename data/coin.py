@@ -4,9 +4,9 @@ from data.__init__ import *
 class Coin(pygame.sprite.Sprite):
     def __init__(self, pos):
         super(Coin, self).__init__()
-        self.anim1 = pygame.image.load("C:/dev/pygame/Shmup/assets/sprites/coins/coin1.png")
-        self.anim2 = pygame.image.load("C:/dev/pygame/Shmup/assets/sprites/coins/coin2.png")
-        self.anim3 = pygame.image.load("C:/dev/pygame/Shmup/assets/sprites/coins/coin3.png")
+        self.anim1 = pygame.image.load("assets/sprites/coins/coin1.png")
+        self.anim2 = pygame.image.load("assets/sprites/coins/coin2.png")
+        self.anim3 = pygame.image.load("assets/sprites/coins/coin3.png")
         self.anim = [self.anim1, self.anim2, self.anim3]
         self.index = 0
 
